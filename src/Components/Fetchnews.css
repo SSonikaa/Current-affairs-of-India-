@@ -1,0 +1,35 @@
+#datesdiv{
+    max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  margin-top: 10px;
+  margin-bottom: 20px; 
+}
+#fetchbutton{
+    margin-top: 10px;
+    
+
+}
+#datesdiv input[type="date"] {
+   
+    width: calc(100% -5px); 
+    padding: 10px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Style for the input fields when focused */
+  #datesdiv input[type="date"]:focus {
+    border-color: #f700ff; 
+    outline: none; 
+    
+  }
+  #datesdiv label {
+   
+    margin-bottom: 5px; 
+    font-weight: bold; 
+  }
+ 
