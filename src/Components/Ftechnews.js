@@ -19,7 +19,7 @@ const fetchNews = () => {
     alert('Please enter both start date and end date.');
     return;
   }
-  const apiUrl = `https://newsapi.org/v2/top-headlines?country=in&from=${startDate}&to=${endDate}&sortBy=popularity&apiKey=${Your api key}`;
+  const apiUrl = `https://newsapi.org/v2/top-headlines?country=in&from=${startDate}&to=${endDate}&sortBy=popularity&apiKey= ${Yourapikey}`;
 
   axios.get(apiUrl)
     .then((response) => {
